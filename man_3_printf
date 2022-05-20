@@ -6,7 +6,7 @@
 .nf
 .BI printf (FORMAT, ARGUMENT)...
 .PP
-.BI "#include 'holberton.h'"
+.BI "#include 'main.h'"
 .BI "#include <stdarg.h>"
 .BI "#include <unistd.h>"
 .PP
@@ -120,7 +120,4 @@ int main(void)
 	return (0);
 
 }
-.SH SEE ALSO
-.R printf(3)
-.SH AUTHORS
-Written by \fBDiego López\fR and \fBLuis Chaparro\fR.
+
